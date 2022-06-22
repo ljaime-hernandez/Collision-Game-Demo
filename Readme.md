@@ -1,4 +1,4 @@
-the approach for this code demostration is based on the calculation of the radius of a circle
+The approach for this code demonstration is based on the calculation of the radius of a circle
 by simply designating a point in the game space and using a function to draw it on the console,
 then the technique used to calculate statically if the circle is in contact with a tile or not
 is called clamping, the clamping will give us a range of space from which we will notify the
@@ -7,7 +7,7 @@ game tile to the circle radius. If there is no contact, the circle will be free 
 there is, then the program will prevent the objects from overlapping, causing a displacement
 in the circles movement against the object it is colliding with.
 
-the clamping is done by calculating the nearest point the circle's center is from the collision
+The clamping is done by calculating the nearest point the circle's center is from the collision
 in both the X and Y axis of a tile (by also calculating the bottom, top, left and right
 sides of the tile, as it can be something else other than a square). Along with it, a small field
 around the circle is going to calculate any proximity to a tile in the map (visually seen on
@@ -18,7 +18,7 @@ controls:
 up = W
 down = S
 left = A
-rght = D
+right = D
 zoom in = Q
 zoom out = E
 increase velocity = SHIFT (held)
