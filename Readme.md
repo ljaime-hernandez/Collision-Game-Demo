@@ -1,3 +1,6 @@
+
+https://user-images.githubusercontent.com/65676644/175113565-edffbf09-1c5d-4780-95f0-119ac829a35f.mp4
+
 The approach for this code demonstration is based on the calculation of the radius of a circle
 by simply designating a point in the game space and using a function to draw it on the console,
 then the technique used to calculate statically if the circle is in contact with a tile or not
