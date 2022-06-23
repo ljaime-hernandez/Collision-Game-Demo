@@ -19,6 +19,8 @@ game tile to the circle radius If there is no contact, the circle will be free t
 there is, then the program will prevent the objects from overlapping, causing a displacement 
 in the circles movement against the object it is colliding with.
 
+![collision gif](https://user-images.githubusercontent.com/65676644/175345634-9c9214af-f9f0-47f2-9ecf-c517fff05ef2.gif)
+
 The clamping is done by calculating the nearest point the circle's center is from the collision
 in both the X and Y axis of a tile (by also calculating the bottom, top, left and right
 sides of the tile, as it can be something else other than a square). Along with it, a small field
